@@ -1,0 +1,14 @@
+
+## A Graph-based Approach for Keyword Identification ##
+
+This code finds the most salient words in documents through the Pagerank algorithm. 
+There are 2 sets of data in the example data set: positive and negative. 
+One can change the number of iterations and the number of highest words from the main(). 
+
+
+# STOPWORDS 
+
+Before running the code, make sure that you have the nltk data of "stopwords".
+If you don't have, run this on Python console: 
+	>>> import nltk
+	>>> nltk.download("stopwords")
